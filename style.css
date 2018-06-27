@@ -16,7 +16,14 @@
 	opacity: 1;
 }
 
-.header-text:hover .slick-track>img {
+.header-text>h2:hover .slick-track>img {
+	filter: brightness(0.5);
+}
+.header-text>h1:hover .slick-track>img {
+	filter: brightness(0.5);
+}
+
+.header-text>p:hover .slick-track>img {
 	filter: brightness(0.5);
 }
 
