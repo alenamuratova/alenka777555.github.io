@@ -54,7 +54,6 @@ blockquote, q {
 body {
 	font: 12px/18px Arial, Helvetica, sans-serif;
 	color: #333;
-	background-size: cover;
 }
 
 p {
@@ -93,6 +92,7 @@ a {
 }
 body {
 	background: #281912 url("images/bg.jpg") no-repeat top center;
+	background-size: cover;
 }
 
 #pagewrap {
