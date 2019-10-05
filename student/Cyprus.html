@@ -1,0 +1,62 @@
+<DOCTYPE html>
+<HTML>
+
+<head>
+	<meta charset = "UTF-8">
+	<title>Личный сайт студента GeekBrains</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="dimsemenov-Magnific-Popup-2ff1692\dist\magnific-popup.css">
+	<script src="jquery-3.3.1.js"></script>
+	<script src="dimsemenov-Magnific-Popup-2ff1692\dist\jquery.magnific-popup.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.parent-img').magnificPopup({
+  				delegate: 'a',
+  				type: 'image'
+			});
+			$(".hide").hide();
+			$(".link-kyprus").on("click", function() {
+				var text = $(".hide").is(":visible") ? "Показать еще" : "Скрыть фото";
+				$(".link-kyprus").text(text);
+				$(".hide").slideToggle(1000);
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="content">
+			<header>
+				<a href="index.html">Главная</a>
+				<a href="Cyprus.html">Кипр</a>
+				<a href="Foto.html">Красивые фото Лондона</a>
+			</header>
+			<h1 class="heading">Личный сайт студента GeekBrains</h1>
+			<main class="cyprus-img">
+				<div class="parent-img">
+					<a href="Кипр-1.jpg"><img src="Кипр-1.jpg"></a>
+					<a href="Кипр-2.jpg"><img src="Кипр-2.jpg"></a>
+					<a href="Кипр-3.jpg"><img src="Кипр-3.jpg"></a>
+					<a href="Кипр-4.jpg"><img src="Кипр-4.jpg"></a>
+					<a href="Кипр-5.jpg"><img src="Кипр-5.jpg"></a>
+					<a href="Кипр-6.jpg"><img src="Кипр-6.jpg"></a>
+				</div>
+				<div class="parent-img hide">
+					<a href="Кипр-12.jpg"><img src="Кипр-12.jpg"></a>
+					<a href="Кипр-7.jpg"><img src="Кипр-7.jpg"></a>
+					<a href="Кипр-8.jpg"><img src="Кипр-8.jpg"></a>
+					<a href="Кипр-9.jpg"><img src="Кипр-9.jpg"></a>
+					<a href="Кипр-10.jpg"><img src="Кипр-10.jpg"></a>
+					<a href="Кипр-11.jpg"><img src="Кипр-11.jpg"></a>
+				</div>
+			</main>
+			<div class="block">
+				<a class="link-kyprus" style="cursor: pointer">Показать еще</a>
+			</div>
+		</div>
+		<footer>Все права защищены &copy; 2018</footer>	
+	</div>
+</body>
+
+</HTML>

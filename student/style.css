@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f7f7f7;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.content {
+	flex: 1;
+}
+
+header {
+	border-width: 1px;
+	border-color:  #b5b7ba;
+	border-style: solid;
+	background-color:  #dfdfdf;
+	height: 68px;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header a {
+	font-family: Roboto;
+	color:  #4d4d4d;
+	font-size: 20px;
+	font-weight: 100;
+	text-align: left;
+	text-decoration: none;
+}
+
+main {
+	display: flex; 
+	justify-content: space-around; 
+	flex-wrap: wrap; 
+	padding: 3%;
+}
+
+h1 {
+	color: #2e353d;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+.parent-img {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 3%;
+}	
+
+.cyprus-img img {
+	width: 450px;
+	margin-bottom: 5%;
+}
+
+.cyprus-img {
+	align-items: flex-start;
+}
+
+.link-kyprus{
+	display: inline-block;
+	border: 2px solid #000;
+	padding: 10px 30px;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+.block {
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+.London-img {
+	max-width: 800px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.London-img img {
+	max-width: 800px;
+}
+
+
+p {
+	font-family: Roboto;
+	color:  #242424;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: left;
+	width: 693px;
+	background-color:  #ffffff;
+	padding: 2%;
+}
+
+
+footer {
+	background-color:  #434445;
+	height: 90px;
+	font-family: Roboto;
+	color:  #a4a4a4;
+	font-size: 20px;
+	font-style: italic;
+	text-align: left;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
