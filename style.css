@@ -92,6 +92,7 @@ a {
 }
 body {
 	background: #281912 url("images/bg.jpg") no-repeat top center;
+	background-size: cover;
 }
 
 #pagewrap {
