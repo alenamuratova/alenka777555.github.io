@@ -3,7 +3,7 @@ import {Link} from "react-router";
 
 const MenuItem = props => {
     return(
-        <li className={props.active ? 'nav-item active' : 'nav-item'}>
+        <li className={'nav-item active'}>
             <Link className="nav-link" to={props.href}>
             {props.children}
             </Link>
